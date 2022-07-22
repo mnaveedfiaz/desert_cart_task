@@ -1,5 +1,6 @@
 require "json"
 require 'date'
+require 'time'
 
 def parser(input)
     timestamp = JSON.parse(input)["time"]
